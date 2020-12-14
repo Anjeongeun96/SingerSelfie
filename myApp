@@ -1,0 +1,17 @@
+<html lang="ko">
+<head>
+        <meta charset="UTF-8">
+</head>
+<body>
+<script>
+    var korean, english, mat;
+    var hap;
+    korean=Number(prompt('국어 점수 입력',''));
+    english=Number(prompt('영어 점수 입력',''));
+    mat=Number(prompt('수학 점수 입력',''));
+    hap=korean+english+mat;
+    document.write("총점 : "+hap+"<br>");
+    document.write("평균 : "+ hap/3);
+</script>
+</body>
+</html>
